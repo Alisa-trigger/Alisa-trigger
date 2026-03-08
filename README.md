@@ -4,4 +4,4 @@ Just your average overachiever… who somehow survived university, procrastinati
 
 secretly questioning my life choices.
 
-me? I make chaos look intentional.
+aaaaand I make chaos look intentional.
