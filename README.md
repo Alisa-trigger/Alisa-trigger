@@ -95,9 +95,12 @@ I co-founded **Coldbeak**, an AI cold email startup, and owned its frontend, UI/
 
 <img src="./assets/h-ping.svg" alt="> ping alisa" height="44"/>
 
-<p align="center">
 
+
+ <div align="center">
   <a href="mailto:amberrydelta@gmail.com"><img src="https://img.shields.io/badge/Email-0a0a0a?style=for-the-badge&logo=gmail&logoColor=ffb8d9"/></a>
-</p>
+</div>
+
+
 
 <p align="center"><sub>☕ <i>aesthetic <b>and</b> it works. never one or the other.</i></sub></p>
