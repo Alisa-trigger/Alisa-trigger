@@ -27,7 +27,10 @@ I co-founded **Coldbeak**, an AI cold email startup, and owned its frontend, UI/
 <table align="center">
   <tr>
     <td><b>Design</b></td>
-    <td><img src="https://skillicons.dev/icons?i=ps,ai&theme=dark" alt="design"/></td>
+     <td>
+      <img src="https://img.shields.io/badge/Pinterest-moodboards-0a0a0a?style=for-the-badge&logo=pinterest&logoColor=E60023&labelColor=0a0a0a&color=1a1a1a"/>
+      <img src="https://img.shields.io/badge/designed-in%20code-0a0a0a?style=for-the-badge&logo=css&logoColor=ffb8d9&labelColor=0a0a0a&color=1a1a1a"/>
+    </td>
   </tr>
   <tr>
     <td><b>AI tools</b></td>
