@@ -92,6 +92,9 @@ I co-founded **Coldbeak**, an AI cold email startup, and owned its frontend, UI/
 </p>
 
 <br/>
+<p align="center">
+  <img src="./assets/now-playing.svg" alt="now playing: can't sleep" width="600"/>
+</p>
 
 <img src="./assets/h-ping.svg" alt="> ping alisa" height="44"/>
 
