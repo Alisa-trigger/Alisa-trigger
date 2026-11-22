@@ -1,16 +1,16 @@
 <p align="center">
-  <img src="./assets/fetch.svg?v=2" alt="fastfetch-style card: Alisa, Frontend Engineer + UI/UX Designer, with skill bars" width="100%"/>
+  <img src="./assets/fetch.svg?v=4" alt="fastfetch-style card: Alisa, Frontend Engineer + UI/UX Designer, with skill bars" width="100%"/>
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=17&duration=3000&pause=800&color=FFFFFF&center=true&vCenter=true&width=560&lines=%24+whoami;frontend+engineer+%2B+UI%2FUX+designer;i+design+it.+then+i+build+it.;pixel+perfect%2C+chai+powered+%E2%98%95" alt="typing"/>
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=17&duration=3000&pause=800&color=FFB8D9&center=true&vCenter=true&width=560&lines=%24+whoami;frontend+engineer+%2B+UI%2FUX+designer;i+design+it.+then+i+build+it.;pixel+perfect%2C+chai+powered+%E2%98%95" alt="typing"/>
 </p>
 
 <br/>
 
-## `> cat about_me.md`
+<img src="./assets/h-about.svg" alt="> cat about_me.md" height="44"/>
 
-I'm a software engineering student at **IIUI, Islamabad** working where design meets code. I take an idea from a Figma frame to a shipped product, and I care about the parts most people skip: spacing, micro-interactions, empty states, the little animation that makes an app feel alive.
+I'm a frontend engineer and UI/UX designer working where design meets code. I take an idea all the way to a shipped product, and I care about the parts most people skip: spacing, micro-interactions, empty states, the little animation that makes an app feel alive.
 
 I co-founded **Coldbeak**, an AI cold email startup, and owned its frontend, UI/UX, brand and distribution, including a launch across 15+ platforms. These days I build my own things.
 
@@ -22,12 +22,21 @@ I co-founded **Coldbeak**, an AI cold email startup, and owned its frontend, UI/
 
 <br/>
 
-## `> ls ~/skills`
+<img src="./assets/h-skills.svg" alt="> ls ~/skills" height="44"/>
 
 <table align="center">
   <tr>
     <td><b>🎨 Design</b></td>
-    <td><img src="https://skillicons.dev/icons?i=figma,ps,ai&theme=dark" alt="design"/></td>
+    <td><img src="https://skillicons.dev/icons?i=ps,ai&theme=dark" alt="design"/></td>
+  </tr>
+  <tr>
+    <td><b>🤖 AI tools</b></td>
+    <td>
+      <img src="https://img.shields.io/badge/Claude-0a0a0a?style=for-the-badge&logo=claude&logoColor=D97757"/>
+      <img src="https://img.shields.io/badge/Codex-0a0a0a?style=for-the-badge&logo=openai&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Cursor-0a0a0a?style=for-the-badge&logo=cursor&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Antigravity-0a0a0a?style=for-the-badge&logo=google&logoColor=ffb8d9"/>
+    </td>
   </tr>
   <tr>
     <td><b>💻 Frontend</b></td>
@@ -44,7 +53,7 @@ I co-founded **Coldbeak**, an AI cold email startup, and owned its frontend, UI/
 </table>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/UI%2FUX-design-ffffff?style=flat-square&labelColor=0a0a0a"/>
+  <img src="https://img.shields.io/badge/UI%2FUX-design-ffb8d9?style=flat-square&labelColor=0a0a0a"/>
   <img src="https://img.shields.io/badge/responsive-layouts-89b4fa?style=flat-square&labelColor=0a0a0a"/>
   <img src="https://img.shields.io/badge/micro-interactions-f5c2e7?style=flat-square&labelColor=0a0a0a"/>
   <img src="https://img.shields.io/badge/PWAs-installable-94e2d5?style=flat-square&labelColor=0a0a0a"/>
@@ -55,25 +64,25 @@ I co-founded **Coldbeak**, an AI cold email startup, and owned its frontend, UI/
 <br/>
 
 <p align="center">
-  <img src="./assets/ascii.svg?v=2" alt="ASCII art of a cat and an astronaut" width="100%"/>
+  <img src="./assets/ascii.svg?v=4" alt="ASCII art of a cat and an astronaut" width="100%"/>
 </p>
 
 <br/>
 
 <p align="center">
-  <img src="./assets/projects.svg?v=2" alt="ls ~/projects: chaii (live), reminder-assistant (building), portfolio (wip), coldbeak (archived)" width="100%"/>
+  <img src="./assets/projects.svg?v=4" alt="ls ~/projects: chaii (live), reminder-assistant (building), portfolio (wip), coldbeak (archived)" width="100%"/>
 </p>
 
 <br/>
 
-## `> git log --stats`
+<img src="./assets/h-stats.svg" alt="> git log --stats" height="44"/>
 
 <p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=Alisa-trigger&show_icons=true&hide_border=true&bg_color=0a0a0a&title_color=ffffff&icon_color=bdbdbd&text_color=e8e8e8&rank_icon=github" alt="stats"/>
-  <img height="170" src="https://streak-stats.demolab.com?user=Alisa-trigger&hide_border=true&background=0a0a0a&ring=ffffff&fire=ffffff&currStreakLabel=ffffff&sideLabels=e8e8e8&currStreakNum=ffffff&sideNums=ffffff&dates=a6adc8&stroke=2e2e2e" alt="streak"/>
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=Alisa-trigger&show_icons=true&hide_border=true&bg_color=0a0a0a&title_color=ffb8d9&icon_color=ffb8d9&text_color=e8e8e8&rank_icon=github" alt="stats"/>
+  <img height="170" src="https://streak-stats.demolab.com?user=Alisa-trigger&hide_border=true&background=0a0a0a&ring=ffb8d9&fire=ffb8d9&currStreakLabel=ffb8d9&sideLabels=e8e8e8&currStreakNum=ffffff&sideNums=ffffff&dates=a6adc8&stroke=2e2e2e" alt="streak"/>
 </p>
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Alisa-trigger&bg_color=0a0a0a&color=e8e8e8&line=ffffff&point=ffffff&area=true&area_color=5a5a5a&hide_border=true&custom_title=Activity" alt="activity graph" width="100%"/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Alisa-trigger&bg_color=0a0a0a&color=e8e8e8&line=ffb8d9&point=ffffff&area=true&area_color=ffb8d9&hide_border=true&custom_title=Activity" alt="activity graph" width="100%"/>
 </p>
 <p align="center">
   <img src="https://raw.githubusercontent.com/Alisa-trigger/Alisa-trigger/output/github-snake-dark.svg" alt="snake" width="100%"/>
@@ -81,11 +90,11 @@ I co-founded **Coldbeak**, an AI cold email startup, and owned its frontend, UI/
 
 <br/>
 
-## `> ping alisa`
+<img src="./assets/h-ping.svg" alt="> ping alisa" height="44"/>
 
 <p align="center">
   <a href="https://x.com/corruptedsan"><img src="https://img.shields.io/badge/X-0a0a0a?style=for-the-badge&logo=x&logoColor=cdd6f4"/></a>
-  <a href="mailto:amberrydelta@gmail.com"><img src="https://img.shields.io/badge/Email-0a0a0a?style=for-the-badge&logo=gmail&logoColor=ffffff"/></a>
+  <a href="mailto:amberrydelta@gmail.com"><img src="https://img.shields.io/badge/Email-0a0a0a?style=for-the-badge&logo=gmail&logoColor=ffb8d9"/></a>
 </p>
 
 <p align="center"><sub>☕ <i>aesthetic <b>and</b> it works. never one or the other.</i></sub></p>
