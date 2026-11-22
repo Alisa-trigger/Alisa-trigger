@@ -93,13 +93,10 @@ def chrome(W, H, tab):
             + f'<circle cx="{W-90}" cy="22" r="6" fill="{C["yellow"]}"/><circle cx="{W-66}" cy="22" r="6" fill="{C["green"]}"/><circle cx="{W-42}" cy="22" r="6" fill="{C["red"]}"/>')
 
 def prompt(x, y, cmd, cursor=False):
-    s = T(x, y, 'PS ', C['blue']) + T(x+36, y, 'C:\\Users\\alisa', C['mauve']) + T(x+36+14*12, y, '>', C['sub'])
-    if cmd:
-        s += T(x+36+16*12, y, cmd, C['text'])
-    if cursor:
-        cx = x+36+16*12 + len(cmd)*12
-        s += f'<rect class="cur" x="{cx}" y="{y-17}" width="11" height="22" fill="{C["pink"]}"/>'
-    return s
+    cur = f'<tspan class="cur" fill="{C["pink"]}">█</tspan>' if cursor else ''
+    return (f'<text x="{x}" y="{y}" font-size="20" xml:space="preserve">'
+            f'<tspan fill="{C["blue"]}">PS </tspan><tspan fill="{C["mauve"]}">C:\\Users\\alisa</tspan>'
+            f'<tspan fill="{C["sub"]}">&gt; </tspan><tspan fill="{C["text"]}">{esc(cmd)}</tspan>{cur}</text>')
 
 PROFILE = [
     ('NAME',   'Alisa', C['blue'], 0),
@@ -113,9 +110,11 @@ PROFILE = [
 SKILLS = [
     ('DESIGN', 'Figma / UI/UX', 90),
     ('FRONT',  'React',         85),
+    ('FRONT',  'Next.js',       80),
     ('STYLE',  'Tailwind CSS',  90),
     ('LANG',   'JavaScript',    80),
     ('LANG',   'TypeScript',    65),
+    ('BACK',   'Supabase',      70),
     ('BACK',   'Firebase',      60),
     ('SHIP',   'Git + Vercel',  75),
     ('GROWTH', 'Distribution',  85),
@@ -125,7 +124,8 @@ def pct_col(p):
     return C['green'] if p >= 85 else C['teal'] if p >= 75 else C['yellow'] if p >= 60 else C['peach']
 
 def fetch():
-    W, H = 1200, 760
+    W = 1200
+    H = 140 + 30 + len(PROFILE)*32 + 44 + 30 + len(SKILLS)*32 + 44 + 90
     s = [f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" width="{W}" height="{H}" {FONT}>', STYLE, chrome(W, H, 'alisa — PowerShell')]
     s.append(prompt(40, 90, 'fastfetch --skills'))
     s.append(f'<g shape-rendering="crispEdges">{cat(80, 300, 14)}</g>')
@@ -140,8 +140,8 @@ def fetch():
     # skills box
     y1 = y0 + 30 + rows*32 + 44
     s.append(box(bx, y1, bw, 30 + len(SKILLS)*32, 'Skills', C['mauve'], 1))
-    seg_w, seg_g, nseg = 11, 2, 20
-    barx = bx + 410
+    seg_w, seg_g, nseg = 10, 2, 20
+    barx = bx + 370
     for i, (lab, sk, p) in enumerate(SKILLS):
         y = y1 + 44 + i*32
         base = .6 + i*.12
@@ -155,7 +155,7 @@ def fetch():
             else:
                 segs.append(f'<rect x="{xx}" y="{y-15}" width="{seg_w}" height="14" fill="{C["surface"]}"/>')
         s.append(f'<g shape-rendering="crispEdges">{"".join(segs)}</g>')
-        s.append(f'<g class="fade" style="animation-delay:{base+.15+fill*.035:.2f}s">' + T(barx + nseg*(seg_w+seg_g) + 14, y, f'{p}%', pct_col(p)) + '</g>')
+        s.append(f'<g class="fade" style="animation-delay:{base+.15+fill*.035:.2f}s">' + T(bx + bw - 22, y, f'{p}%', pct_col(p), anchor='end') + '</g>')
     # colour dots
     yd = y1 + 30 + len(SKILLS)*32 + 44
     for i, col in enumerate([C['ov'], C['blue'], C['teal'], C['pink'], C['green'], C['yellow'], C['mauve'], C['red']]):
