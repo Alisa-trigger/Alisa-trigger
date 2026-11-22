@@ -10,15 +10,15 @@
 
 <img src="./assets/h-about.svg" alt="> cat about_me.md" height="44"/>
 
-I'm a frontend engineer and UI/UX designer working where design meets code. I take an idea all the way to a shipped product, and I care about the parts most people skip: spacing, micro-interactions, empty states, the little animation that makes an app feel alive.
+Hellooooo , I'm a frontend engineer and UI/UX designer working where design meets code. I take an idea all the way to a shipped product, and I care about like spacing, micro-interactions, empty states, the little animation that makes an app feel alive.
 
-I co-founded **Coldbeak**, an AI cold email startup, and owned its frontend, UI/UX, brand and distribution, including a launch across 15+ platforms. These days I build my own things.
+I co-founded **Coldbeak**, an AI cold email startup, and owned its frontend, UI/UX, brand and distribution, including a launch across 15+ platforms. These days I build my own things..hehhe
 
 - 🔭 building a **reminder assistant** that lives in WhatsApp, installs as a PWA and syncs with Google Tasks
 - ☕ shipped **Chaii**, an installable pixel-art chai stall where friends hang out
 - 🌱 sharpening my fundamentals and writing more code from scratch
 - 🎨 off-screen: sketching, writing, pixel art
-- 💬 ask me about landing pages, UI polish, or launching something from zero
+- 💬 ask me about art , and im gonna open my pinterest
 
 <br/>
 
@@ -26,11 +26,11 @@ I co-founded **Coldbeak**, an AI cold email startup, and owned its frontend, UI/
 
 <table align="center">
   <tr>
-    <td><b>🎨 Design</b></td>
+    <td><b>Design</b></td>
     <td><img src="https://skillicons.dev/icons?i=ps,ai&theme=dark" alt="design"/></td>
   </tr>
   <tr>
-    <td><b>🤖 AI tools</b></td>
+    <td><b>AI tools</b></td>
     <td>
       <img src="https://img.shields.io/badge/Claude-0a0a0a?style=for-the-badge&logo=claude&logoColor=D97757"/>
       <img src="https://img.shields.io/badge/Codex-0a0a0a?style=for-the-badge&logo=openai&logoColor=white"/>
@@ -39,15 +39,15 @@ I co-founded **Coldbeak**, an AI cold email startup, and owned its frontend, UI/
     </td>
   </tr>
   <tr>
-    <td><b>💻 Frontend</b></td>
+    <td><b>Frontend</b></td>
     <td><img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,tailwind&theme=dark" alt="frontend"/></td>
   </tr>
   <tr>
-    <td><b>🔥 Backend &amp; data</b></td>
+    <td><b>Backend &amp; data</b></td>
     <td><img src="https://skillicons.dev/icons?i=supabase,firebase,nodejs&theme=dark" alt="backend"/></td>
   </tr>
   <tr>
-    <td><b>🚀 Ship it</b></td>
+    <td><b>Ship it</b></td>
     <td><img src="https://skillicons.dev/icons?i=git,github,vercel,vscode&theme=dark" alt="tools"/></td>
   </tr>
 </table>
